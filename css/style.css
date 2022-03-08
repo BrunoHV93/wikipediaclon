@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Header section */
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-title h1 {
+    font-family: Raleway, Linux Libertine,Hoefler, New Roman;
+    font-size: 3.5rem;
+}
+
+.header-title p {
+    font-family: Raleway, Linux Libertine,Hoefler, New Roman;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+/* Main central content */
+
+.central-content {
+    text-align: center;
+}
+
+.central-content img {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -100px;
+    z-index: -1;
+}
+
+.central-content-row a {
+    color: #36c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifss;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.central-content-row a:hover {
+    text-decoration: underline;
+}
+
+.central-content-row a:active {
+    text-decoration: underline;
+}
+
+.central-content p {
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #54595D;
+}
+
+.central-content-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+#central-content-box1, #central-content-box9 {
+    margin-right: 150px;
+}
+
+#central-content-box3, #central-content-box7 {
+    margin-right: 250px;
+}
+
+#central-content-box5 {
+    margin-right: 300px;
+}
+
+
+/* Main search bar */
+
+.main-input {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+main .main-input-container {
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container a {
+    color: #54595D;
+    text-decoration: none;
+    font-size: medium;
+    margin-right: 15px;
+}
+
+main .main-input-button button{
+    background-image: url('https://img.icons8.com/color/24/000000/search--v1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #36c;
+    height: 40px;
+    width: 50px;
+    border: none;
+}
+
+.main-language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-language span {
+    width: 200px;
+    height: 1px;
+    margin: 0px 20px 0px 20px;
+    border: 0.5px solid #dfe1e5;
+}
+
+.main-language p{
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    font-size: 2rem;
+    text-align: center;
+    color: #36c;
+}
+
+
+
+
+
+
+
+
+
+
